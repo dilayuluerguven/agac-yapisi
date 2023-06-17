@@ -133,11 +133,7 @@ int main()
     int sayac = 0;
     ortalama = ortalamabul(agac, toplam, sayac);
     printf("\nOrtalama: %.2f\n", ortalama);
-
-    printf("Ortalamadan buyuk sayilar: ");
-    siralama(agac, ortalama);
-
-    printf("\nOrtalamadan buyuk sayilarin siralanmis hali: ");
+    printf("Ortalamadan buyuk sayilarin siralanmis hali: ");
     ekfonksiyon(agac, ortalama);
 
     return 0;
